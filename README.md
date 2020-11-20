@@ -1,77 +1,70 @@
-# Front-End-Batch12-DiveIntoTopic
-## Setup React Project (2h)
+# Getting Started with Create React App
 
-### Create a React app using create-react-app
+This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-Ref: [https://create-react-app.dev/docs/getting-started](https://create-react-app.dev/docs/getting-started)
+## Available Scripts
 
-1. Create a React app by create-react-app
-2. Run the app
+In the project directory, you can run:
 
-### Setup ESLint
-    
-1. Ensure ESLint plugin is working
-2. Customize ESLint rules (optional)
+### `yarn start`
 
-### Setup Prettier
+Runs the app in the development mode.\
+Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
 
-Ref: [https://create-react-app.dev/docs/setting-up-your-editor/#formatting-code-automatically](https://create-react-app.dev/docs/setting-up-your-editor/#formatting-code-automatically)
+The page will reload if you make edits.\
+You will also see any lint errors in the console.
 
-1. Follow the instructions to setup Prettier
-2. Ensure Prettier will run before commits
-3. Customize Prettier rules (optional)
+### `yarn test`
 
-### Try CSS modules with SASS
+Launches the test runner in the interactive watch mode.\
+See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
 
-Ref: [https://create-react-app.dev/docs/adding-a-sass-stylesheet](https://create-react-app.dev/docs/adding-a-sass-stylesheet)
+### `yarn build`
 
-Ref: [https://create-react-app.dev/docs/adding-a-css-modules-stylesheet](https://create-react-app.dev/docs/adding-a-css-modules-stylesheet)
+Builds the app for production to the `build` folder.\
+It correctly bundles React in production mode and optimizes the build for the best performance.
 
-1. Install node-sass
-2. Replace CSS with CSS modules
+The build is minified and the filenames include the hashes.\
+Your app is ready to be deployed!
 
-### Deploy to GitHub
+See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
 
---- 
+### `yarn eject`
 
-## Complete a Todo List App (1d4h)
+**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
 
-Demo: [https://mdn.github.io/todo-react-build/](https://mdn.github.io/todo-react-build/)
+If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
 
-1. Implement ["controlled"](https://zh-hant.reactjs.org/docs/forms.html#controlled-components) task name input
-2. Add task
-3. Complete task
-4. Delete task
-5. Edit task
-6. Add filters
-7. Show # of filtered tasks
+Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
 
-- `querySelector` or `getElementByXxx` is forbidden.
-- Create a pull request before 4pm with github page link and your progress.
+You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
 
----
+## Learn More
 
-## Integrate with Redux (6h)
+You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
 
-Ref: [https://redux.js.org/](https://redux.js.org/)
+To learn React, check out the [React documentation](https://reactjs.org/).
 
-1. Install redux and react-redux
-2. Move data of tasks to redux state
-3. Implement reducers
-4. Update redux state by dispatching actions
-5. Update data to local storage when redux state changed
-6. Retrieve data from local storage when starting an app
+### Code Splitting
 
-- Create a pull request before 4pm with github page link and your progress.
+This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
 
----
+### Analyzing the Bundle Size
 
-## Integrate with React Router (4h)
+This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
 
-Ref: [https://reactrouter.com/web/guides/quick-start](https://reactrouter.com/web/guides/quick-start)
+### Making a Progressive Web App
 
-1. Install react-router and react-router-dom
-2. Filter tasks based on url and show active style to the corresponding filter button
-3. Change url when user clicks on some filter button
+This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
 
-- Create a pull request before 4pm with github page link and your progress.
+### Advanced Configuration
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+
+### Deployment
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+
+### `yarn build` fails to minify
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
