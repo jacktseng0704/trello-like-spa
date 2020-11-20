@@ -1,7 +1,8 @@
 import './App.css';
+import AddList from './AddList';
 
 function App() {
-  return <h1>Hello AppWorks</h1>;
+  return <AddList />;
 }
 
 export default App;

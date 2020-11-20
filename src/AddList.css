@@ -1,0 +1,14 @@
+.AddListComponent {
+  padding: 10px;
+  border: 1px solid;
+  margin: 0 auto;
+  margin-top: 50%;
+  max-width: 50%;
+  display: flex;
+  flex-direction: column;
+}
+
+.HiddenForm {
+  margin: 10px;
+  display: none;
+}
