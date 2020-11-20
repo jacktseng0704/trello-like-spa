@@ -1,5 +1,5 @@
 import './App.css';
-import AddList from './AddList';
+import AddList from './components/AddList';
 
 function App() {
   return <AddList />;

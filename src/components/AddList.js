@@ -2,12 +2,12 @@ import React, { useState } from 'react';
 import Form from './Form';
 import './AddList.css';
 import List from './List';
+import { nanoid } from 'nanoid';
 
 export default function AddList() {
   const [lists, setLists] = useState([]);
   const addList = (title) => {
     setLists([...lists, title]);
-    console.log(title);
   };
   const [showForm, setShowForm] = useState(false);
   const onClick = () => setShowForm(true);
@@ -15,7 +15,7 @@ export default function AddList() {
   return (
     <div className='AddListComponent'>
       {lists.map((list) => (
-        <List title={list} />
+        <List title={list} key={nanoid()} />
       ))}
       <div className='ListComponent'>
         {showForm ? (
