@@ -1,0 +1,20 @@
+{
+  "files": {
+    "main.css": "/jacktseng0704/trello-like-spa/static/css/main.03711007.chunk.css",
+    "main.js": "/jacktseng0704/trello-like-spa/static/js/main.4f0c78e4.chunk.js",
+    "main.js.map": "/jacktseng0704/trello-like-spa/static/js/main.4f0c78e4.chunk.js.map",
+    "runtime-main.js": "/jacktseng0704/trello-like-spa/static/js/runtime-main.0af00a0a.js",
+    "runtime-main.js.map": "/jacktseng0704/trello-like-spa/static/js/runtime-main.0af00a0a.js.map",
+    "static/js/2.075810d5.chunk.js": "/jacktseng0704/trello-like-spa/static/js/2.075810d5.chunk.js",
+    "static/js/2.075810d5.chunk.js.map": "/jacktseng0704/trello-like-spa/static/js/2.075810d5.chunk.js.map",
+    "index.html": "/jacktseng0704/trello-like-spa/index.html",
+    "static/css/main.03711007.chunk.css.map": "/jacktseng0704/trello-like-spa/static/css/main.03711007.chunk.css.map",
+    "static/js/2.075810d5.chunk.js.LICENSE.txt": "/jacktseng0704/trello-like-spa/static/js/2.075810d5.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.0af00a0a.js",
+    "static/js/2.075810d5.chunk.js",
+    "static/css/main.03711007.chunk.css",
+    "static/js/main.4f0c78e4.chunk.js"
+  ]
+}
