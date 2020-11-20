@@ -3,16 +3,22 @@ import React, { useState } from 'react';
 export default function AddCard(props) {
   const [showCard, setShowCard] = useState(false);
   const [value, setValue] = useState('');
+
   const onClick = () => setShowCard(true);
 
   function handleInput(event) {
     setValue(event.target.value);
   }
 
-  function handleClick() {}
+  function handleClick() {
+    if (value) {
+      props.addCard(value);
+      setValue('');
+    }
+  }
 
   return (
-    <div className='CardComponent'>
+    <>
       {showCard ? (
         <div className='MyForm'>
           <input style={{ marginTop: '10px' }} value={value} onChange={handleInput} />
@@ -26,6 +32,6 @@ export default function AddCard(props) {
           + Add a Card
         </button>
       )}
-    </div>
+    </>
   );
 }
